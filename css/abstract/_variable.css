@@ -1,0 +1,32 @@
+:root {
+
+  /* Colors */
+  --bs-white: #fff;
+  --bs-black: #000;
+  --bs-half-white: rgba(255,255,255,0.5);
+  --bs-red: rgb(245, 76, 83);
+  --bs-gray: gray;
+  --bs-gray-low: rgb(230, 230, 230);
+  --bs-blue: rgb(0, 142, 224);
+  --bs-blue-low: #0098EF;
+
+  /* BREAKPOINTS */
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+
+
+  /* FONTS */
+  --font-primary: 'gandom', 'yekan';
+  --font-size-default: 1.6rem;
+}
+
+/*
+   BREAKPOINTS 
+    1200px ------> 75em; 
+    992px ------> 62em; 
+    768px ------> 48em; 
+    576px ------> 36em; 
+*/

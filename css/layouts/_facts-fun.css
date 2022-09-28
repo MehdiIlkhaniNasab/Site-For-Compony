@@ -1,0 +1,30 @@
+.facts{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(21rem, 25rem));
+    justify-content: center;
+    gap: 3rem;
+    background-color: var(--bs-white);
+    padding-bottom: 10rem;
+}
+
+.fact{
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.fact h3{
+    font-size: 5rem;
+}
+.fact p {
+    font-size: 1.9rem;
+    color: var(--bs-gray);
+}
+
+.fact .icon{
+    width: 5rem;
+    height: 5rem;
+    fill: #ccc;
+    margin: 0 auto;
+}   

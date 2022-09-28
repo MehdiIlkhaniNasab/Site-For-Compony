@@ -1,0 +1,25 @@
+.description{
+    display: grid;
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    padding: 8rem 0;
+    background-color: var(--bs-white);
+
+}
+
+.description-titel{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.description-text{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 3rem;
+    font-size: 1.7rem;
+    color: var(--bs-gray);
+}

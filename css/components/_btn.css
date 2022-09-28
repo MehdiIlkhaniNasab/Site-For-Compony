@@ -1,0 +1,28 @@
+.btn{
+    padding: 1rem 3rem;
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--bs-gray-low);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn-transparent{
+    background-color: transparent;
+    color: var(--bs-white);
+}
+
+.btn-transparent:hover{
+    background-color: var(--bs-white);
+    color: var(--bs-red);
+}
+
+.btn-red{
+    background-color: var(--bs-red);
+    color: var(--bs-white);
+    border: none;
+}
+.btn-red:hover{
+    filter: brightness(70%);
+}

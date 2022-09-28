@@ -1,0 +1,56 @@
+.footer{
+    padding: 8rem 5rem 2rem;
+    background-color: var(--bs-white);
+}
+
+.footer-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 30rem));
+    justify-content: start;
+    gap: 4rem;
+    line-height: 3rem;
+    border-bottom: 1px solid var(--bs-gray-low);
+    padding-bottom: 5rem;
+}
+
+.footer-links-title{
+    font-size: 2.5rem;
+}
+
+.about-text{
+    color: var(--bs-gray);
+}
+
+.footer-list   div{
+    display: grid;
+    grid-template-rows: max-content max-content;
+    gap: 2rem;
+}
+
+.footer-link-list{
+    list-style-type: none;
+}
+
+.footer-link-list li {
+    cursor: pointer;
+}
+
+.contact-phone,
+.contact-email,
+.contact-message{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+}
+
+.footer-contact .icon{ 
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: currentColor;
+}
+
+.footer-copy{
+    padding: 2rem;
+    text-align: center;
+}
+

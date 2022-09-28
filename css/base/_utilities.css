@@ -1,0 +1,10 @@
+.u-container{
+    margin: 0 auto;
+    width: 85%;
+}
+
+
+.u-text-red{
+    color: var(--bs-red);
+}
+

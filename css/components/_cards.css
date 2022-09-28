@@ -1,0 +1,118 @@
+/* Cards Images */
+
+.cards-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 33rem));
+    grid-template-rows: repeat(auto-fit, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    padding: 8rem 2rem;
+    border-bottom:  1px solid var(--bs-gray-low);
+    background-color: var(--bs-white);
+}
+
+.card-img{
+    height: 37rem;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+    transition: all 0.4s;
+}
+
+.card__img{
+    width: 100%;
+    height: 24rem;
+    display: block;
+    transition: all 0.4s;
+}
+
+.card-img-content{
+    width: 100%;
+    height: 13rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 4rem;
+    line-height: 3rem;
+}
+
+
+
+.card-img:hover img{
+    filter: brightness(70%);
+}
+.card-img:hover{
+    transform: translateY(-1rem);
+}
+
+/* End Cards Images */
+
+/* Cards Features */
+.cards-features{
+    background-color: var(--bs-white);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 30rem));
+    grid-template-rows: repeat(auto-fit , 1fr);
+    justify-content: center;
+    gap: 4rem;
+    text-align: center;
+    line-height: 3rem;
+    padding: 0 0 8rem ;
+    border-bottom:  1px solid var(--bs-gray-low);
+
+}
+
+.card-feature{
+    display: grid;
+    gap: 2rem;
+}
+
+.card-feature .icon {
+    width: 6rem;
+    height: 6rem;
+    fill:  #cccc;
+    margin:  0 auto;
+}
+/* End Cards Features */
+
+/* Swiper  */
+.product-slider{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 4rem;
+}
+
+.sipper-slider-card{
+    width: 35rem;
+    height: 26rem;
+}
+.sipper-slider-card img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.swiper-slide{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    cursor: pointer;
+    color: var(--bs-white);
+    background-color: var(--bs-red);
+    padding: 2rem;
+}
+
+
+
+.swiper-pagination-bullet-active-main{
+    background-color: var(--bs-red);
+
+}
+
+/* End Swiper  */

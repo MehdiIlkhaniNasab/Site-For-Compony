@@ -1,0 +1,27 @@
+.subscribe{
+    background-color: var(--bs-blue-low);
+    padding-bottom: 5rem;
+}
+
+.subscribe .description{
+    background-color: transparent;
+    color: var(--bs-white) ;
+}
+
+.subscribe .description-text{
+    color: var(--bs-half-white);
+}
+
+.subscribe form{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(max-content, 25rem));
+    gap: 2rem;
+    justify-content: center;
+}
+
+.subscribe form input{
+    padding: 0.5rem 3rem;
+    border: 2px solid rgba(255, 255, 255, 0.2) ;
+    border-radius: 5px;
+}

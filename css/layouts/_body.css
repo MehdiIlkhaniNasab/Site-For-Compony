@@ -1,0 +1,8 @@
+::selection{
+    color: var(--bs-white);
+    background-color: var(--bs-red);
+}
+
+body{
+    background-color: var(--bs-gray-low);
+}

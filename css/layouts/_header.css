@@ -1,0 +1,60 @@
+.header-wrapper{
+    background-image:  linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.4)),url(../../images/img_4.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    padding: 2rem 8rem;
+    height: 70.9rem;
+}
+
+.header-navbar{
+    display: grid;
+    grid-template-columns: auto minmax(max-content,50%) minmax(min-content,max-content);
+    align-items: center;
+}
+
+.navbar-logo{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: var(--bs-white);
+    font-weight: bold;
+}
+
+.header-list{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    gap: 2rem;
+    padding: 0;
+}
+
+.header-item{
+    color: var(--bs-gray-low);
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.header-item:hover{
+    color: var(--bs-white);
+}
+
+.header-content{
+    padding: 8rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 40rem));
+    align-items: center;
+    justify-content: center;
+}
+
+.header-wrapper .u-paragraph{
+    color: var(--bs-gray-low);
+}
+
+.header-wrapper .header-titel{
+    color: var(--bs-white);
+    font-weight: lighter;
+    font-size: 4rem;
+}
+
+
+

@@ -1,0 +1,13 @@
+.Products{
+    background-color: var(--bs-blue);
+    padding-bottom: 5rem;
+}
+
+.Products .description{
+    background-color: transparent;
+    color: var(--bs-white) ;
+}
+
+.Products .description-text{
+    color: var(--bs-half-white);
+}

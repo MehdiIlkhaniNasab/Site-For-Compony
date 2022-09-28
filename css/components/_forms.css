@@ -1,0 +1,68 @@
+.form-box{
+    background-color: var(--bs-white);
+    display: grid;
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, 1fr);
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.form-tab{
+    width: 100%;
+    height: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    background-color: var(--bs-gray);
+}
+
+.form-tab a{
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: var(--bs-black);
+    background-color: var(--bs-half-white);
+}
+
+.active{
+    color: var(--bs-red) !important;
+    background-color: var(--bs-white) !important;
+}
+
+.form{
+    padding: 4rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.form div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
+    gap: 2rem;
+}
+
+.form div label{
+    color: var(--bs-gray);
+}
+
+.form div input{
+    border-radius: 5px;
+    border:  2px solid var(--bs-gray-low);
+    padding: 0.5rem ;
+    outline: none;
+}
+
+.form div input:focus{
+    
+    border:  2px solid var(--bs-gray);
+}
+
+.hidden{
+    display: none;
+}

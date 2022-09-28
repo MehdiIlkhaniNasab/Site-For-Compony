@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'yekan';
+    src: url('../../../fonts/Yekan.eot?#')format('eot'),
+    url('../../../fonts/Yekan.ttf')format('truetype'),
+    url('../../../fonts/Yekan.woff')format('woff')
+}
+@font-face {
+    font-family: 'gandom';
+    src: url('../../../fonts/Gandom.eot')format('eot'),
+    url('../../../fonts/Gandom.ttf')format('truetype'),
+    url('../../../fonts/Gandom.woff')format('woff')
+}
