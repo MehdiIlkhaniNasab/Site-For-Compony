@@ -22,10 +22,10 @@
         padding: 2rem;
     }
 
-    .header-navbar{
+    .header-navbar {
         justify-content: space-between;
     }
-    
+
     .navbar-logo {
         font-size: 2rem;
     }
@@ -38,6 +38,12 @@
     .footer-list {
         justify-content: center;
         text-align: center;
+    }
+
+    .contact-phone,
+    .contact-email,
+    .contact-message {
+        font-size: 1.3rem;
     }
 
 }
